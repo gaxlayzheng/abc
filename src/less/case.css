@@ -1,0 +1,89 @@
+body,
+main {
+  width: 100%;
+  background: #f7ffe8;
+  height: 2000px;
+}
+.main-content {
+  width: 65%;
+  margin: 0 auto;
+  font-size: 13px;
+  font-weight: lighter;
+  color: #999999;
+  background: #333333;
+}
+.main-content > .content-title {
+  padding-top: 50px;
+  text-align: center;
+}
+.main-content > .content-title > h3 {
+  font-size: 20px;
+  color: white;
+}
+.main-content > .content-list {
+  padding: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.main-content > .content-list > div {
+  cursor: pointer;
+  line-height: 13px;
+  width: 90px;
+  font-family: 微软雅黑;
+  font-size: 13px;
+  background-color: transparent;
+  color: #aaaaaa;
+  padding: 8px 15px 8px 15px;
+  margin-right: 1px;
+}
+.main-content > .content-list > div:hover {
+  color: white;
+  background: #999999;
+}
+.main-content > .content-list .hover {
+  color: white;
+  background: #999999;
+}
+.main-content > .content-img {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.main-content > .content-img > .img-1 {
+  width: 350px;
+  height: 250px;
+}
+.main-content > .content-img > .img-1 > .mark {
+  display: none;
+  padding-left: 10px;
+  width: 100%;
+  height: 100%;
+  background: rgba(33, 33, 33, 0.8);
+  position: relative;
+}
+.main-content > .content-img > .img-1 > .mark > div {
+  width: 332px;
+  height: 196px;
+  border: 1px solid grey;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0 10px;
+}
+.main-content > .content-img > .img-1 > .mark > div > div {
+  color: white;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.main-content > .content-img > .img-1 > .mark > div > div > a {
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+}
+.main-content > .content-img > .img-1 > .mark > div > div > p {
+  font-size: 12px;
+  color: #a3a3a3;
+}

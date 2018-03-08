@@ -1,0 +1,103 @@
+//公共样式
+@font-face {
+  font-family: 'iconfont';  /* project id 583707 */
+  src: url('//at.alicdn.com/t/font_583707_tem7a1ffidlsor.eot');
+  src: url('//at.alicdn.com/t/font_583707_tem7a1ffidlsor.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_583707_tem7a1ffidlsor.woff') format('woff'),
+  url('//at.alicdn.com/t/font_583707_tem7a1ffidlsor.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_583707_tem7a1ffidlsor.svg#iconfont') format('svg');
+}
+.iconfont{
+  font: normal 14px iconfont;
+}
+.smallFont{
+  font-size: 12px;color: #A9A9A9;
+}
+.title{
+  h2{
+    font: normal 24px "微软雅黑";  color: white;  padding: 0 0 3px 0;
+  }
+  .subtitle{
+    font: normal 12px "微软雅黑";  color: white;  padding: 2px;
+  }
+}
+
+//头部
+.web-header{
+  width: 100%;height: 89px;background: black;padding: 25px 40px;
+  img{
+    max-height: 100%;
+  }
+  ul{
+    li{
+      display: inline-block;line-height: 45px;margin-left: 50px;
+      a{
+        color: #A9A9A9;
+      }
+      a:hover{
+        color: white;text-decoration: none;
+      }
+    }
+  }
+}
+//主体
+.web-main{
+  width: 100%;height: 2000px;
+}
+//尾部
+.web-footer{
+  width: 100%;height: 589px;background: #1e1e1e;padding: 65px 80px;
+  .foot-header{
+    width: 100%;
+  }
+  .foot-main{
+    margin-top: 80px;
+    .main-left{
+      line-height: 40px;
+      .left-header{
+        font-weight: bold;font-size: 18px;color: white;
+      }
+      .left-main{
+        li{
+          color: #A9A9A9;
+        }
+      }
+      .left-footer{
+        li{
+          display: inline-block;font-size: 20px;color: white;margin-right: 10px;
+        }
+      }
+    }
+    .main-right{
+      text-align: left;
+      form{
+        width: 100%;margin-bottom: 20px;
+        input{
+          width: 48%;height: 30px;padding: 0 3px;display: inline-block;background: transparent;border-bottom: 1px solid #868686;margin-bottom: 20px;
+        }
+        input:first-child, input:nth-child(3){
+          margin-right: 33px;
+        }
+        textarea{
+          background: transparent;border: none;border-bottom: 1px solid #868686;width: 100%;outline: none;resize: vertical;
+        }
+        input:focus::placeholder, textarea:focus::placeholder{
+          color: #424242;
+        }
+      }
+      button{
+        width: 10.2%;height: 32px;text-align: center;line-height: 32px;color: white;background: #595959;cursor: pointer;margin-bottom: 50px;
+      }
+      button:hover{
+        background: #8e8e8e;
+      }
+    }
+  }
+}
+//backToTop
+aside{
+  width: 34px;height: 34px;background: #5b5b5b;position: fixed;bottom: 20%;right: 0;text-align: center;line-height: 34px;cursor: pointer;
+  i{
+    color: white;
+  }
+}

@@ -1,0 +1,81 @@
+body,
+.web-main {
+  width: 100%;
+  background: black;
+}
+.main-content {
+  width: 65%;
+  margin: 0 auto;
+  font-size: 13px;
+  font-weight: lighter;
+  color: #8d9095;
+}
+.main-content > .content-title {
+  padding-top: 50px;
+  text-align: center;
+}
+.main-content > .content-title > h3 {
+  font-size: 20px;
+  color: white;
+}
+.main-content > .content-info-1 {
+  width: 100%;
+  padding: 40px 0;
+  line-height: 25px;
+  border-bottom: 1px solid #6a6a6a;
+}
+.main-content > .content-info-2 {
+  width: 100%;
+  padding: 60px 0;
+  line-height: 25px;
+}
+.main-content > .content-info-2 > .info-left {
+  width: 580px;
+}
+.main-content > .content-info-2 > .info-right {
+  width: 480px;
+  height: 290px;
+  background: url(../images/about/a.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+.main-content > .content-footer {
+  width: 100%;
+  padding: 80px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.main-content > .content-footer > a {
+  display: block;
+  width: 88px;
+  height: 72px;
+  background: url(../images/about/designer-1.png) no-repeat;
+  background-size: 100% 100%;
+}
+.main-content > .content-footer > a:nth-child(2) {
+  background: url(../images/about/designer-2.png) no-repeat;
+  background-size: 100% 100%;
+}
+.main-content > .content-footer > a:nth-child(3) {
+  background: url(../images/about/designer-3.png) no-repeat;
+  background-size: 100% 100%;
+}
+.main-content > .content-footer > a:nth-child(4) {
+  background: url(../images/about/designer-4.png) no-repeat;
+  background-size: 100% 100%;
+}
+.main-content > .content-footer > a:nth-child(5) {
+  background: url(../images/about/designer-5.png) no-repeat;
+  background-size: 100% 100%;
+}
+.main-content > .content-footer > a:nth-child(6) {
+  background: url(../images/about/designer-6.png) no-repeat;
+  background-size: 100% 100%;
+}
+.main-content > .content-footer > a:nth-child(7) {
+  background: url(../images/about/designer-7.png) no-repeat;
+  background-size: 100% 100%;
+}
+.main-content > .content-footer > a:nth-child(8) {
+  background: url(../images/about/designer-8.png) no-repeat;
+  background-size: 100% 100%;
+}

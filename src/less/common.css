@@ -21,11 +21,17 @@
   color: white;
   padding: 2px;
 }
+html,
+body,
+main {
+  min-width: 1190px;
+}
 .web-header {
   width: 100%;
   height: 89px;
   background: black;
   padding: 25px 40px;
+  border-bottom: 1px solid #505050;
 }
 .web-header img {
   max-height: 100%;
@@ -41,10 +47,6 @@
 .web-header ul li a:hover {
   color: white;
   text-decoration: none;
-}
-.web-main {
-  width: 100%;
-  height: 2000px;
 }
 .web-footer {
   width: 100%;
@@ -133,4 +135,20 @@ aside {
 }
 aside i {
   color: white;
+}
+.running {
+  animation-play-state: running;
+}
+@keyframes btnAnimation {
+  from {
+    margin-top: 60px;
+    opacity: 0;
+  }
+  to {
+    margin-top: 40px;
+    opacity: 1;
+  }
+}
+.show {
+  display: block !important;
 }
